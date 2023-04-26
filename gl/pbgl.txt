@@ -1,0 +1,47 @@
+PBGL.INC contains the following functions/subs:
+
+
+pbglSetupPixelFormat(hDC, cColorBit)
+----------------------
+Sets up a pixel format with cColorBit bpp.
+Returns 0 on error, non zero on success.
+
+
+
+pbglResizeViewport(lWidth, lHeight, zFar)
+------------------
+Resizes the OpenGL viewport and sets the
+appropriate perspective.
+
+
+
+pbglRegisterClass(hInstance, lpWndProc, lpClassName)
+-----------------
+Registers a wnd class so you dont have to
+bitch with that anymore.
+The hInstance parameter can be 0.
+Returns 0 on error, non zero on success.
+
+
+
+pbglProcMsg()
+-----------
+Processes window messages and returns.
+
+
+
+pbglSetVideoMode(lWidth, lHeight, lBpp)
+----------------
+Changes the video mode.
+Set lBpp = 0 to use the current bpp.
+Returns 0 on error, non zero on success.
+
+
+
+pbglRestoreVideoMode()
+--------------------
+Restores the video mode.
+
+
+Check out examples/s6demo/s6demo.bas !!
+

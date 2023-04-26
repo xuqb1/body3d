@@ -1,0 +1,67 @@
+SetupType=自定义
+GroupNames=|主组|
+UserData=||||
+Version=1.0
+ComposerVersion=
+
+PROG_NAME=穴位3D
+COMPANY_URL=http://blog.sina.com.cn/xuewei3d
+CHAR_SET=0
+FONT_NAME=Tahoma
+FONT_SIZE=8
+GET_DIALOG_BITMAP_3D_FRAME=1
+GET_AUTO_UPDATE_EXE_FILE_NAME=
+GET_AUTO_UPDATE_EXE_DIR=d:\Program Files (x86)\穴位3D
+GET_PROG_EXE_NAME=d:\Program Files (x86)\穴位3D\穴位3D.exe
+GET_DIALOG_STYLE_MODERN=1
+IS_RUNNING_TEST=0
+GET_TEST_ADMIN_RIGHTS_UNINSTALL=1
+GET_HIDE_ERR_MSG_UNINSTALL=0
+GET_HIDE_LOG_BTN_UNINSTALL=0
+SILENT_UNINSTALL=0
+HIDDEN_UNINSTALL=0
+
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\UnInstall_18139.txt);
+RunTimeDir_1=|||||||1||||1||1|<程序文件目录>|||||
+RunTimeDir_2=|||||||1||||1||1|<程序文件目录>|||||
+RunTimeDir_3=|||||||1||||1||1|<程序文件目录>|||||
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\UnInstall\穴位3D);
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Management\ARPCache\穴位3D);
+
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\LHDX_LEE\穴位3D);
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\穴位3D.exe);
+TargetDir=d:\Program Files (x86)\穴位3D
+SharedDir=C:\Program Files (x86)\Common Files\穴位3D
+AuxiliaryDir=
+REMOVE_DIR(d:\Program Files (x86)\穴位3D);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\glut32.dll);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\man.3ds);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\ManArmL.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\ManArmR.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\ManEyeC2.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\ManFace.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MHandL.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MHandR.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MLegL.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MLegR.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MPLeft.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MPRight.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MSkin.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\MTor2.jpg);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\穴位3D.exe);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\穴位3D.ico);
+
+REMOVE_DIR(d:\Program Files (x86)\穴位3D\data);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\data\dm.lj);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\data\help.lj);
+REMOVE_FILE(d:\Program Files (x86)\穴位3D\data\xwsj.lj);
+
+REMOVE_FILE(C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\穴位3D\穴位3d.lnk);
+REMOVE_FOLDER(C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\穴位3D);
+AVOID_ERR_REMOVE_DIR(C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\穴位3D);
+REMOVE_FILE(C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\穴位3D\卸载 穴位3D.lnk);
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\LHDX_LEE\穴位3D\测试1.1);
+
+VARIABLE_VALUES=|
+CASE_SENSITIVE=1
+WHOLE_WORD=0
